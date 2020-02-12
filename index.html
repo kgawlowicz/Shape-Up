@@ -1,13 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><Shape-Up></Shape-Up></title>
+    <title>
+        <Shape-Up></Shape-Up>
+    </title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+    <label for="width">Width: </label><input type="text" id="width" name="width">
+    <label for="height">Height: </label><input type="text" id="height" name="height">
+    <button id=addRectangle>Add rectangle</button>
+    <br>
+    <label for="length">Length: </label><input type="text" id="length" name="length">
+    <button id=addSquare>Add square</button>
+    <br>
+    <label for="radius">Radius: </label><input type="text" id="radius" name="radius">
+    <button id=circle>Add circle</button>
+    <br>
+    <label for="height">Height: </label><input type="text" id="tri-height" name="height">
+    <button id=triangle>Add triangle</button>
+    <div id="shapes">
+        <span id='shape-container'></span>
+        <span id='side-panel'></span>
+    </div>
+
     <script src="app.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,48 @@
+#shapes {
+    display: flex;
+    justify-content: start;
+}
+
+#shape-container {
+    height: 600px;
+    width: 600px;
+    background-color: bisque;
+    position: relative;
+}
+
+#side-panel {
+    height: 600px;
+    width: 150px;
+    background-color: rgb(165, 214, 247);
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: absolute;
+}
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background: red;
+    position: absolute;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+    position: absolute;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    position: absolute;
+}
